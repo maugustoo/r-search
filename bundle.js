@@ -61,6 +61,10 @@
 
 	var _reactDom2 = _interopRequireDefault(_reactDom);
 
+	var _search_bar = __webpack_require__(160);
+
+	var _search_bar2 = _interopRequireDefault(_search_bar);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	var API_KEY = "AIzaSyCFn_IKUC4QrbDHvB_6dahlp98BgFplkyU";
@@ -70,9 +74,9 @@
 
 	var App = function App() {
 	    return _react2.default.createElement(
-	        'h1',
+	        'div',
 	        null,
-	        'FirstHtml"'
+	        _react2.default.createElement(_search_bar2.default, null)
 	    );
 	};
 
@@ -19778,6 +19782,28 @@
 
 	module.exports = __webpack_require__(4);
 
+
+/***/ }),
+/* 160 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+
+	var _react = __webpack_require__(2);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	var SearchBar = function SearchBar() {
+	    return _react2.default.createElement('input', null);
+	};
+
+	exports.default = SearchBar;
 
 /***/ })
 /******/ ]);
