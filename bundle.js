@@ -63,6 +63,8 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+	var API_KEY = "AIzaSyCFn_IKUC4QrbDHvB_6dahlp98BgFplkyU";
+
 	// Create a new component. This component should produce
 	// some HTML
 
